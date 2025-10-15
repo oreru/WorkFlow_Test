@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62E80114-643A-47FD-9862-935B6E8AE570}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{62E80114-643A-47FD-9862-935B6E8AE570}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB_Level1_Loop" ID="{D25C979C-B27F-4C38-9F33-A823A04EB2D3}" ShortID="994948113">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D5BDB9D-FFD5-4518-B894-064CF30FCF30}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22748134-46F5-41F1-A425-4E324181BAC8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_Level1_Loop" ID="{FCB8A54E-4D13-4A47-8A47-BAD131EC3683}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_Level1_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="154473229"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_Level1_Loop" ID="{FCB8A54E-4D13-4A47-8A47-BAD131EC3683}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

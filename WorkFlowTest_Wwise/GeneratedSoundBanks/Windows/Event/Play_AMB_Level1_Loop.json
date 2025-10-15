@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "854386579",
+    "Type": "Event",
+    "GUID": "{E39CAF88-9AAE-4DC3-A08B-DE6963786CE1}",
+    "Language": "SFX",
+    "Hash": "{2DEB240B-C05F-FD46-FE59-0839C4FED962}",
+    "ObjectPath": "Play_AMB_Level1_Loop",
+    "ShortName": "Play_AMB_Level1_Loop",
+    "Path": "Event/Play_AMB_Level1_Loop.bnk",
+    "Media": [
+     {
+      "Id": "154473229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Level1_Loop.wav",
+      "Path": "Media/154473229.wem",
+      "CachePath": "CE/{CE2B4845-4574-D05D-BE5A-42C20E0EC5AF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "854386579",
+      "Name": "Play_AMB_Level1_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Level1_Loop",
+      "GUID": "{E39CAF88-9AAE-4DC3-A08B-DE6963786CE1}",
+      "DurationType": "OneShot",
+      "DurationMin": "88.42107",
+      "DurationMax": "88.42107",
+      "MediaRefs": [
+       {
+        "Id": "154473229"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{37B42CA4-76A7-05E7-603C-E3275D6329BE}"
+ }
+}
